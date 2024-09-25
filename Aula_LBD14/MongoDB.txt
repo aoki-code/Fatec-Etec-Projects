@@ -1,0 +1,50 @@
+const herois = [
+  {
+    "name": "Spider-Man",
+    "color": "red",
+    "gender": "male",
+    "weight": 76.2,
+    "publisher": "Marvel Comics",
+    "race": "Human"
+  },
+  {
+    "name": "Wonder Woman",
+    "color": "blue",
+    "gender": "female",
+    "weight": 74.8,
+    "publisher": "DC Comics",
+    "race": "Amazon"
+  },
+  {
+    "name": "Hulk",
+    "color": "green",
+    "gender": "male",
+    "weight": 635.0,
+    "publisher": "Marvel Comics",
+    "race": "Human"
+  },
+];
+
+db.Heroi.insertMany(herois);
+
+
+Listar todos os heróis que têm cor cadastrada:
+db.heroes.find({ color: { $exists: true } })
+
+Listar todos os heróis não masculinos (male):
+db.heroes.find({ gender: { $ne: "male" } })
+
+Listar todos os heróis de peso (Weight) negativo:
+db.heroes.find({ weight: { $lt: 0 } })
+
+Listar todos os heróis de peso (Weight) maior que 100.00:
+db.heroes.find({ weight: { $gt: 100.00 } })
+
+Listar todos os heróis que não são da Marvel:
+db.heroes.find({ publisher: { $ne: "Marvel Comics" } })
+
+Listar todos os heróis que são da DC Comics:
+db.heroes.find({ publisher: "DC Comics" })
+
+Listar todos os heróis da Marvel que são humanos (Human):
+db.heroes.find({ publisher: "Marvel Comics", race: "Human" })
