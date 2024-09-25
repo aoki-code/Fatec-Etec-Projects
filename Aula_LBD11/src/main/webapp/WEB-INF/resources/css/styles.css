@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+    font-size: 18px;
+}
+
+#menu ul li { 
+	display: inline; 
+}
+
+#menu ul li a {
+	font-size: 18px;
+    padding: 2px 10px;
+    display: inline-block;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+	font-size: 18px;
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+input[type=submit] {
+	border: 5px solid blue;
+	color: black;
+	background-color: white;
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+input[type=submit]:hover {
+	background-color: blue; 
+	color: white;
+}
+
+.title {
+	font-size: 28px;
+	color: black;
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+	padding-bottom: 20px;
+	border: 6px solid gray;
+	box-shadow: 20px 20px 0 #777777;
+	border-radius: 50px;
+}
+
+.id_input_data {
+	border: 3px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 50px;
+	font-size: 20px;
+}
+
+.date_input_data {
+	border: 3px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 180px;
+	font-size: 20px;
+}
+
+.input_data {
+	border: 3px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 350px;
+	font-size: 20px;
+}
+
+.table_round {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.th_dash {
+	border: 0.5px solid blue;
+	border-style: dashed;
+}
+
+.td_groove {
+	border: 0.5px solid red;
+	border-style: groove;
+}
