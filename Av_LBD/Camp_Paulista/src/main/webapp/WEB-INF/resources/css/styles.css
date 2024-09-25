@@ -1,0 +1,231 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://e0.pxfuel.com/wallpapers/420/145/desktop-wallpaper-soccer-field-2-minimalistic-football-minimalist.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a {
+color: #fff;
+text-decoration: none;
+padding: 5px 20px;
+font-family: poppins;
+font-size: 16px;
+text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 100%;
+    padding: 15px 0;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+
+/*resposive*/
+
+@media (max-width:600px){
+    .wrapper {
+width: 100%;
+}
+.logo {
+float: none;
+width: 50%;
+text-align: center;
+margin: auto;
+}
+img {
+
+}
+.nav-area {
+float: none;
+margin-top: 0;
+}
+    .nav-area li a {
+padding: 5px;
+font-size: 11px;
+}
+.nav-area {
+text-align: center;
+}
+    .welcome-text {
+width: 100%;
+height: auto;
+margin: 30% 0;
+}
+    .welcome-text h1 {
+font-size: 30px;
+}
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #2A2A2A;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+body{
+	background-color: #343434;
+	margin:0;
+}
+
+h2{
+	font-family: sans-serif;
+	color: #f2f2f2;
+}
+
+h3{
+	font-family: sans-serif;
+	color: #f2f2f2;
+}
+
+#menu ul { 
+	padding: 0px;
+	margin: 0px;
+	list-style: none; 
+	background-color: #708090;
+	font-size: 18px;
+}
+
+#menu ul li{ 
+	display: inline;
+}
+
+#menu ul li a{
+	font-size: 17px;
+	padding: 2px 10px; 
+	display: inline-block; 
+	background-color: #f2f2f2;
+	color:white;
+	text-decoration: none; /*Decoração de texto*/
+	border-bottom: 3px solid #708090;
+}
+
+#menu ul li a:hover{
+	font-size: 18px;
+	color: white;
+	border-bottom: 3px solid white;
+}
+
+.texto{
+	font-family: fantasy;
+	color: #f2f2f2
+}
+
+.table_home{
+	border: 2px solid #f2f2f2;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+/* Tabelas dos grupos*/
+ .container {
+                width: 100%;
+                max-width: 70em;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            /* Mantém os elementos lado a lado */
+            .grid {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            /* Espaçamento uniformemente e tenham o mesmo tamanho */
+            .grid > * {
+                margin: 1em;
+                flex: 1 0 300px;
+            }
+h4{
+	font-family: sans-serif;
+	color: #f2f2f2;
+}
+
+td{
+	color: #f2f2f2;
+}
+
+th{
+	color: #f2f2f2;
+}
+
+img {
+  border-radius: 50%;
+}
